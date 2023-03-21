@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "acquired_at": {"type": "string"},
+        "stain": {"type": "string"},
+        "tissue": {"type": "string"},
+        "path": {"type": "string"}
+    },
+    "required": ["id", "path"]
+}

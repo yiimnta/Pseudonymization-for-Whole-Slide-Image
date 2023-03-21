@@ -1,0 +1,22 @@
+{
+    "id":"case_0001",
+    "name":"case_name_0001",
+    "created_at": "10:40AM 19.01.2021",
+    "slides":[
+        {
+            "id": "0001",
+            "name": "CMU-2",
+            "acquired_at": "09:45AM 26.12.2009",
+            "stain": "HnE",
+            "path": "D:\\data\\wsi\\case\\CMU-2.svs"
+        },
+        {
+            "id":"0002",
+            "name":"TCGA-C8-A12V.svs",
+            "acquired_at": "3:43PM 15.08.2011",
+            "stain": "H&E",
+            "tissue": "Breast",
+            "path": "D:\\data\\wsi\\case\\TCGA-C8-A12V.svs"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "created_at": {"type": "string"},
+        "slides": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "name": {"type": "string"},
+                    "acquired_at": {"type": "string"},
+                    "stain": {"type": "string"},
+                    "tissue": {"type": "string"},
+                    "path": {"type": "string"}
+                },
+                "required": ["id", "path"]
+            }
+        }
+    },
+    "required": ["id", "slides"]
+}

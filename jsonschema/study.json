@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "date": {"type": "string"},
+        "patients": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "name": {"type": "string"},
+                    "sex": {"type": "string"},
+                    "age": {"type": "number"},
+                    "slides": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {"type": "string"},
+                                "name": {"type": "string"},
+                                "acquired_at": {"type": "string"},
+                                "stain": {"type": "string"},
+                                "tissue": {"type": "string"},
+                                "path": {"type": "string"}
+                            },
+                            "required": ["id", "path"]
+                        }
+                    }
+                },
+                "required": ["id", "slides"]
+            }
+        }
+    },
+    "required": ["id", "patients"]
+}

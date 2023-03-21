@@ -1,0 +1,42 @@
+{
+   "id":"study_id_0001",
+   "name": "study name 0001",
+   "date":"20.02.2022",
+   "patients":[
+      {
+         "id":"patient_id_0001",
+         "name": "An Nguyen",
+         "sex": "male",
+         "age": 29,
+         "slides":[
+            {
+              "id": "0001",
+              "name": "CMU-2",
+              "acquired_at": "09:45AM 26.12.2009",
+              "path": "D:\\data\\wsi\\study\\CMU-2.svs"
+            },
+            {
+              "id":"0002",
+              "stain": "H&E",
+              "tissue": "Breast",
+              "path": "D:\\data\\wsi\\study\\TCGA-C8-A12V.svs"
+            }
+         ]
+      },
+      {
+         "id":"patient_id_0002",
+         "sex":"female",
+         "age":55,
+         "slides":[
+            {
+                "id":"0003",
+                "name":"TCGA-A7-A6VX.svs",
+                "acquired_at": "2:10PM 15.07.2013",
+                "stain": "H&E",
+                "tissue": "Breast",
+                "path": "D:\\data\\wsi\\study\\TCGA-A7-A6VX.svs"
+            }
+         ]
+      }
+   ]
+}
