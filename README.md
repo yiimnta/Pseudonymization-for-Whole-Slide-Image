@@ -6,26 +6,66 @@ There is the source code of a system for creating pseudonyms for WSI files (Whol
 - Aperio SVS Fileformat
 
 ### Library
-- faker 16.6.0: ```pip install Faker ```
-- nanoid 2.0 :```pip install nanoid```
-- numpy 1.24.2:```pip install numpy```
-- tifffile 2023.3.15:```pip install tifffile```
+- faker 16.6.0:
+
+```bash
+pip install Faker
+```
+
+- nanoid 2.0 :
+```bash
+pip install nanoid
+```
+
+- numpy 1.24.2:
+```bash
+pip install numpy
+```
+
+- tifffile 2023.3.15:
+```bash
+pip install tifffile
+```
+
 - opencv2 4.7.0.72:
+     + Windows: ```pip install opencv-python ```
+     + Ubuntu: ```https://docs.opencv.org/3.4/d2/de6/tutorial_py_setup_in_ubuntu.html```
 
-     Windows: ``` pip install Faker```
-
-     Ubuntu: https://docs.opencv.org/3.4/d2/de6/tutorial_py_setup_in_ubuntu.html
 - zlib 1.2.13
-- imagecodecs 2023.1.23: ```pip install imagecodecs```
-- sqlalchemy 1.4.46: ```pip install sqlalchemy```
-- jsonschema 4.17.3: ```pip install jsonschema```
-- pylibdmtx 0.1.10: ```pip install pylibdmtx```
-- Pillow 9.1.0: ```pip install pillow```
+- imagecodecs 2023.1.23:
+```bash
+pip install imagecodecs
+```
+
+- sqlalchemy 1.4.46:
+```bash
+pip install sqlalchemy
+pip install mysqlclient
+pip install sqlalchemy_utils
+```
+
+- jsonschema 4.17.3 :
+```bash
+pip install jsonschema
+```
+
+- pylibdmtx 0.1.10 :
+```bash
+pip install pylibdmtx
+```
+- Pillow 9.1.0 :
+```bash
+pip install pillow
+```
+
+- Asyncmy:
+```bash
+pip install asyncmy
+```
 
 ### Where can we find WSI-files to test:
 
-
-## Aperio 
+#### Aperio 
 + https://openslide.cs.cmu.edu/download/openslide-testdata/Aperio/
 + http://haeckel.case.edu:8080/gallery 
 
