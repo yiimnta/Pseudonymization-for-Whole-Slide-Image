@@ -1,0 +1,13 @@
+SQLAlchemy~=2.0.7
+pylibdmtx~=0.1.10
+opencv-python~=4.7.0.72
+numpy~=1.24.2
+Pillow~=9.4.0
+jsonschema~=4.17.3
+tifffile~=2023.3.21
+python-dateutil~=2.8.2
+Faker~=18.3.0
+nanoid~=2.0.0
+cryptography~=40.0.2
+imagecodecs~=2023.3.16
+imutils~=0.5.4

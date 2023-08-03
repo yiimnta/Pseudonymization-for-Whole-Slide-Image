@@ -356,7 +356,7 @@ def create_pseudo_label(img_width, img_height, schema: Schema):
         y_offset_param = y_offset_param + pad_top
 
         # draw data on image
-        pseudonym = field.draw(pseudonym, (x_offset_param, y_offset_param))
+        pseudonym = field.draw(pseudonym.copy(), (x_offset_param, y_offset_param))
 
     # add padding to image
     if schema.padding != (0, 0, 0, 0):
